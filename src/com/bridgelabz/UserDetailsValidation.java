@@ -16,4 +16,17 @@ public class UserDetailsValidation {
 		else
 			System.out.println("First Name is not valid.");
 	}
+	
+	
+	public static void isValidLastName(String lastName) {
+		String regex = "^[A-Z]{1}[a-z]{2,}$";
+		
+		Pattern pattern = Pattern.compile(regex);
+		Matcher matcher = pattern.matcher(lastName);
+		
+		if(matcher.matches())
+			System.out.println("Last Name is valid.");
+		else
+			System.out.println("Last Name is not valid.");
+	}
 }
