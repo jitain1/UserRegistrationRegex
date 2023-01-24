@@ -12,7 +12,12 @@ public class ValidationOperations {
 	
 		System.out.println("Enter the Last name : ");
 		String lastName = sc.next();
-		UserDetailsValidation.isValidFirstName(lastName);
+		UserDetailsValidation.isValidLastName(lastName);
+		
+		
+		UserDetailsValidation.isValidEmail("abAbc12@gfdF.com");
+		UserDetailsValidation.isValidEmail("abAbc12.aff23AdS2@gfdF.com.IN");
+		UserDetailsValidation.isValidEmail("abc..ch@gmail.com.co");
 	}
 
 }
