@@ -60,9 +60,9 @@ public class UserDetailsValidation {
 		Matcher matcher = pattern.matcher(password);
 		
 		if(matcher.matches()) 
-			System.out.println(password + "    >> this Password is valid.");
+			System.out.println(password + "    >> this Password is valid..");
 		else 
-			System.out.println(password + "    >> this Password is not valid.");	
+			System.out.println(password + "    >> this Password is not valid..");	
 	}
 	
 	

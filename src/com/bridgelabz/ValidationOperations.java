@@ -32,7 +32,7 @@ public class ValidationOperations {
 		UserDetailsValidation.isValidPassword("@aBcd1234");
 		UserDetailsValidation.isValidPassword("abCD12345!@#$%^&*+()-_=,./");
 		UserDetailsValidation.isValidPassword("a@cd123");
-		System.out.println("********************************************\n");
+		System.out.println("**********************************************\n");
 		
 	}
 
