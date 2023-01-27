@@ -28,10 +28,10 @@ public class ValidationOperations {
 		UserDetailsValidation.isValidMobileNumber("98765432100");
 		System.out.println("********************************************\n");
 		
-		UserDetailsValidation.isValidPassword("Abcdefgh");
-		UserDetailsValidation.isValidPassword("aBcd1234");
+		UserDetailsValidation.isValidPassword("Abcdefgh@");
+		UserDetailsValidation.isValidPassword("@aBcd1234");
 		UserDetailsValidation.isValidPassword("abCD12345!@#$%^&*+()-_=,./");
-		UserDetailsValidation.isValidPassword("abcd123");
+		UserDetailsValidation.isValidPassword("a@cd123");
 		System.out.println("********************************************\n");
 		
 	}
