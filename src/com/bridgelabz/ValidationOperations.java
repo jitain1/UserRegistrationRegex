@@ -28,7 +28,7 @@ public class ValidationOperations {
 		UserDetailsValidation.isValidMobileNumber("98765432100");
 		System.out.println("********************************************\n");
 		
-		UserDetailsValidation.isValidPassword("Abcdefgh@");
+		UserDetailsValidation.isValidPassword("Abcdef1%");
 		UserDetailsValidation.isValidPassword("@aBcd1234");
 		UserDetailsValidation.isValidPassword("abCD12345!@#$%^&*+()-_=,./");
 		UserDetailsValidation.isValidPassword("a@cd123");
